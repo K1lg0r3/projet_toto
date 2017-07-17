@@ -1,0 +1,10 @@
+- Remove BRs from footer.
+- Remove BRs from add view.
+
+¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+
+PDO show exceptions (better use in debug):
+
+after pdo new:
+
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

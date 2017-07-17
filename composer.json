@@ -1,0 +1,9 @@
+{
+    "name": "etudiant/projet_toto",
+    "description": "Mail",
+    "type": "project",
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^5.2"
+    }
+}

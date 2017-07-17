@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F1F0EA;
+}
+
+article {
+  margin: 3% 15% auto;
+  border: 2px solid #DBD9CD;
+  padding: 1%;
+}
+
+#menu {
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #D2D0C1;
+  text-align: center;
+  padding: 0;
+}
+
+#menu li {
+  display: inline-block;
+  /*border: 1px solid #232220;*/
+  background-color: #A8A69A;
+}
+
+#menu li:hover {
+  background-color: #6B6A62;
+}
+
+#menu li a {
+
+  display: inline-block;
+  line-height: 50px;
+  height: 50px;
+  width: 200px;
+  text-decoration: none;
+  border: 1px solid #232220;
+  color: black;
+}
+
+#menu li a:hover {
+  color: #F8F7F4;
+}
+
+.clickable-row:hover {
+  background-color: #6B6A62;
+  color: #F8F7F4;
+  cursor: pointer;
+}
+
+#studentInfo li {
+  list-style: none;
+}
+
+#footer {
+  /*margin-top: 80%;*/
+  position: fixed;
+  top: 80%;
+  width: 100%;
+  background-color: #D2D0C1;
+  text-align: center;
+  padding: 0;
+}
+
+#navButtons li {
+  display: inline-block;
+}
+
+#edit {
+  width: 80px;
+  background-color: #A8A69A;
+}
+
+#edit:hover {
+  background-color: #6B6A62;
+  color: #F8F7F4;
+}
+
+#userId {
+  float: left;
+  margin: 15px;
+}
+
+#logOut {
+  float: left;
+  margin: 15px;
+}
