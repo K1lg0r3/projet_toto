@@ -1,5 +1,6 @@
 <pre>
 <?php
+//start of the code
 // require 'PHPMailerAutoload.php';
 require "vendor/autoload.php";
 
